@@ -1,1 +1,0 @@
-import{t as e}from"./listing-page-9pxJI5jr.js";import{A as t,s as n}from"./index-D5o9qHJH.js";var r=t();function i(){let t=n.useLoaderData();return(0,r.jsx)(e,{heading:`محبوب‌ترین مپ‌ها`,intro:`بیس‌هایی که بیشترین تعداد کپی را داشته‌اند. برای هر تالار هم می‌توانید فیلتر کنید.`,items:t.items,total:t.total,sort:`popular`})}export{i as component};

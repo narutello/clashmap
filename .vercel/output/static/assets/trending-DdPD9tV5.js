@@ -1,1 +1,0 @@
-import{t as e}from"./listing-page-9pxJI5jr.js";import{A as t,a as n}from"./index-D5o9qHJH.js";var r=t();function i(){let t=n.useLoaderData();return(0,r.jsx)(e,{heading:`مپ‌های ترند`,intro:`بیس‌هایی که در روزهای اخیر بیشتر کپی شده‌اند و در حال رشد هستند.`,items:t.items,total:t.total,sort:`trending`})}export{i as component};

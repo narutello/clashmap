@@ -1,1 +1,0 @@
-import{t as e}from"./listing-page-9pxJI5jr.js";import{A as t,c as n}from"./index-D5o9qHJH.js";var r=t();function i(){let t=n.useLoaderData();return(0,r.jsx)(e,{heading:`جدیدترین مپ‌ها`,intro:`تازه‌ترین بیس‌هایی که امروز و روزهای اخیر به کاتالوگ اضافه شده‌اند.`,items:t.items,total:t.total,sort:`latest`})}export{i as component};

@@ -1,1 +1,0 @@
-import{t as e}from"./listing-page-9pxJI5jr.js";import{A as t,b as n,n as r}from"./index-D5o9qHJH.js";var i=t();function a(){let t=r.useLoaderData();return(0,i.jsx)(e,{heading:n[t.type],intro:`همه ${n[t.type]}‌ها در تمام تالارهای شهر. تالار را از فیلتر بالا انتخاب کنید.`,items:t.items,total:t.total,sort:`latest`,baseType:t.type})}export{a as component};
