@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Check, Copy } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { copyBaseFn } from "@/lib/api";
@@ -16,23 +16,19 @@ export function CopyBaseButton({
   className?: string;
   size?: "default" | "sm" | "lg";
 }) {
-  const [copied, setCopied] = useState(false);
   const [busy, setBusy] = useState(false);
 
-  async function onCopy(e: React.MouseEvent) {
+  async function onOpen(e: React.MouseEvent) {
     e.preventDefault();
     e.stopPropagation();
     if (busy) return;
     setBusy(true);
     try {
-      await navigator.clipboard.writeText(copyUrl);
-      setCopied(true);
-      toast.success("لینک بیس کپی شد. بازی را باز کنید تا مپ بارگذاری شود.");
-      void copyBaseFn({ data: { id } }).catch(() => undefined);
-      window.setTimeout(() => setCopied(false), 1800);
-    } catch {
-      toast.error("کپی انجام نشد. لینک بازی را مستقیم باز می‌کنیم.");
       window.open(copyUrl, "_blank", "noopener,noreferrer");
+      toast.success("لینک بیس باز شد. در بازی مپ بارگذاری می‌شود.");
+      void copyBaseFn({ data: { id } }).catch(() => undefined);
+    } catch {
+      toast.error("باز کردن لینک انجام نشد.");
     } finally {
       setBusy(false);
     }
@@ -42,12 +38,12 @@ export function CopyBaseButton({
     <Button
       type="button"
       size={size}
-      onClick={onCopy}
+      onClick={onOpen}
       className={cn("min-w-28", className)}
       disabled={busy}
     >
-      {copied ? <Check /> : <Copy />}
-      {copied ? "کپی شد" : "کپی بیس"}
+      <ExternalLink />
+      باز کردن بیس
     </Button>
   );
 }
