@@ -1,0 +1,1 @@
+import{t as e}from"./listing-page-9pxJI5jr.js";import{A as t,S as n,r}from"./index-D5o9qHJH.js";var i=t();function a(){let t=r.useLoaderData();return(0,i.jsx)(e,{heading:`مپ‌های تالار ${n(t.th)}`,intro:`همه بیس‌های Town Hall ${t.th}؛ جنگ، فارم، کاپ، لجند و ضد ستاره.`,items:t.items,total:t.total,sort:`latest`,townHall:t.th})}export{a as component};

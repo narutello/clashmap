@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "کلش‌مپ | کشف و کپی مپ‌های کلش آو کلنز",
+      "hasCanvas": false,
+      "bodyTextLen": 4006,
+      "bodyTextHash": "48dd3e4f9f6092c03b78ed2e2889f76129816a4da5408c731ccf675525c40e00",
+      "bodyTextPrefix": "کلش‌مپ جدیدترین محبوب ترند پلتفرم فارسی مپ کلش آو کلنز مپ مناسب ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "کلش‌مپ | کشف و کپی مپ‌های کلش آو کلنز",
+      "hasCanvas": false,
+      "bodyTextLen": 0,
+      "bodyTextHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bodyTextPrefix": "",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
